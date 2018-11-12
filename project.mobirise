@@ -1,0 +1,114 @@
+{
+  "settings": {
+    "name": "Site-11-12_1605",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false
+      },
+      "additionalSetColors": [
+        "#4d392b"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.2",
+    "siteFonts": [
+      {
+        "css": "'Arvo', serif",
+        "name": "Arvo",
+        "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+      }
+    ],
+    "uniqCompNum": 3,
+    "versionPublish": "4.8.2"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1276.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Dear Bronwyn</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">\n            Please just read it.</h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-black\" href=\"https://mobirise.com\">\n                TRY IT\n            </a>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9cbjqImq1",
+          "_anchor": "header4-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem",
+              "color": "#d5d5d5",
+              "text-align": "center"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            },
+            ".mbr-title DIV": {
+              "color": "#d5d5d5"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#767676\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\">I know that you probably think that I am the worst person who have ever lived and that I am emotionally unstable but this isn't a letter where I apologize I have done that enough. So please just read it where I try to explain how I felt and why I did what I did.<br><br> \n<div>\n</div><div>I honestly thought we were friends because we came along so well and went to get milkshakes and stuff. I really thought that we friends but after the prelims it felt like that I was just a burden in your life and that you don't want to talk to me. Thats why I asked if we're friends and thats why I wanted to talk to you so badly. It felt like that you were telling me that were friends but only saying it because its what I wanted to hear. Thats why I wanted to call and talk to you when you were taking a break. I wanted to know how you feel and what happened. I really didn't mean to be possessive, I really just wanted to know the truth (not saying that you were lying). I also just wanted to be there for you because you were going through a tough time and it was difficult to give you space because when I am going through a though time I want someone to comfort me, so I wasn't used to it.</div><br><div>\n</div><div>So I wrote the letter because I wanted to tell you how I feel and I spent at least 3 hours writing each letter because I wanted to make it perfect amd I asked Shivani whats your favorite chocolate. So when you got it I hoped that you would enjoy the motivational letter and quotes aswell as the chocolate. But when you told me that you don't feel the same way it and that you need a friend, I might have overreacted because it was my best friends in Newcastle's birthday and I couldn't be there so it was just a bit difficult and I am really sorry I shouldn't have done that I feel really embarrassed. It also kinda hurted me because I thought we were already friends even after what I have done the previous weekend. It just felt like everything I thought was a lie. I am really sorry for being so emotional.  And it hurted even more when you didn't even say thank you for the chocolate, I really thought that you would like it. But its probably stupid that feel this about the chocolate.</div><br><br><div>\n</div><div>\n</div><div>When I was in a bad place that weekend it really hurt when you told me to go deal with it on your own, all I needed was someone to talk to. Whrn you told me to go it really felt like that don't even care. So I did some introspection I really decided that I will go and fix my mistakes for what I have done, and I really went and apologized to make things right. When I messaged you that week I was really hoping that you should ask me how I am feeling because no one asked me in awhile but you never did so again it really felt like that you don't care and that everything was I lie. I know you are also going through stuff but asking someone how they are feeling takes 2 seconds and it can make their day. I know I was also really rude that day and I am really sorry about it. Everything was just to much that day, I was busy fixing my mistakes and I was being there for Phumlani because he was a complete mess but no one was there for me. I shouldn't have lashed out sorry.</div><br><div>\n</div><div>\n</div><div>So when I gave that week time I was always thinking of you and hoping that we will be friends after the exams like you told me. When you unfollowed me it really felt like that I was lost and everyone left me. I understand that you might have felt guilty about my caption but you could have just messaged me and tell me that you are good and not unfollow me. So I messaged you but I really didn't mean it to be that rude I honestly didn't, I wasn't even angry or really emotional when I send it. I am really sorry that it came out that way.</div><br><div>\n</div><div>\n</div><div>Everything I did, I did for a good reason. I never have meant to be possessive, bossy and rude. I am honestly not like that. I know sometimes when I say something it might come out rude or bad but I rarely mean it that way. I know its a really bad characteristic of mine but I really try to improve it but I don't know how.</div><br><div>\n</div><div>\n</div><div>What I meant with when I said that I am who I am and I am not going to change. I meant that I am not going to go out anymore and break my neck to make others happy, I am going to go and live my life how I want to so that I can get up each morning looking forward to the day and be able to say that if I die today that I had a amazing life that I enjoyed every second of.</div><br><div>\n</div><div>\n</div><div>You have ever right to be mad at me for everything I have done but just know that I am not mad at you, I forgave you and I am ready to move on. Yes I still think about you and yes I really miss you but I understand that I have done to much. I really enjoyed making those letters for you and spending time with you and even just talking to you.&nbsp;</div><br><div>Goodbye Beautiful</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9crHFpXXp",
+          "_anchor": "content19-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
