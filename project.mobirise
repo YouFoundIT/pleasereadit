@@ -38,6 +38,12 @@
         "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
       }
     ],
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<!-- Default Statcounter code for DearBronwyn\r\nhttp://www.youfoundit.github.io/pleasereadit -->\r\n<script type=\"text/javascript\">\r\nvar sc_project=11871486; \r\nvar sc_invisible=1; \r\nvar sc_security=\"5f1f2f70\"; \r\nvar sc_https=1; \r\n</script>\r\n<script type=\"text/javascript\"\r\nsrc=\"https://www.statcounter.com/counter/counter.js\" async></script>\r\n<noscript><div class=\"statcounter\"><a title=\"free web stats\"\r\nhref=\"http://statcounter.com/\" target=\"_blank\"><img class=\"statcounter\"\r\nsrc=\"//c.statcounter.com/11871486/0/5f1f2f70/1/\" alt=\"free web\r\nstats\"></a></div></noscript>\r\n<!-- End of Statcounter Code -->",
+    "siteUrl": "undefined",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
     "uniqCompNum": 3,
     "versionPublish": "4.8.2"
   },
